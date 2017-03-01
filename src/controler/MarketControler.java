@@ -20,6 +20,7 @@ public class MarketControler {
 	private NewComerCreator newComerCreator;
 	private NewComerEnterer newComerEnterer;
 	private NewComerExitor newComerExitor;
+	
 	private MarketTariffTableUpdater marketUpdater;
 	public static Random simulationRandom;
 	private SimulationDataTracker tracker;
