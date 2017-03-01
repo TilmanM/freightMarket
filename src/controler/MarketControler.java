@@ -68,6 +68,7 @@ public class MarketControler {
 	private void demandIsActive(){
 		for(Flow flow : scenario.getFlows()){
 			flow.requestOffers();
+			
 			TSP chosenOne = flow.selectTSP();
 			if(chosenOne != null){
 				flow.assignShipment(chosenOne);
