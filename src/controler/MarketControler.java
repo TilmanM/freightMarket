@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import io.SimulationDataTracker;
 import io.SimulationDataTrackerImpl;
 import demand.Flow;
+
 import scenario.MarketScenario;
 import scenario.MarketTariffTableUpdater;
 import scenario.MarketTariffTableUpdaterImpl;
